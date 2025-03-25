@@ -152,6 +152,9 @@ aux_source_directory(
     ${CMAKE_SOURCE_DIR}/src/kernel/drivers/net/can/sja1000 C_SOURCE_FILES )
 
 aux_source_directory(
+    ${CMAKE_SOURCE_DIR}/src/kernel/drivers/net/can/spi C_SOURCE_FILES )
+
+aux_source_directory(
     ${CMAKE_SOURCE_DIR}/src/kernel/drivers/net/can/dev C_SOURCE_FILES )
 
 aux_source_directory(
