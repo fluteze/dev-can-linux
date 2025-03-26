@@ -160,6 +160,9 @@ aux_source_directory(
 aux_source_directory(
     ${CMAKE_SOURCE_DIR}/src/kernel/lib/math C_SOURCE_FILES )
 
+aux_source_directory(
+    ${CMAKE_SOURCE_DIR}/src/kernel/drivers/net/can/spi/mcp251xfd C_SOURCE_FILES )
+
 add_executable( dev-can-linux
     ${CMAKE_SOURCE_DIR}/src/main.c
     ${C_SOURCE_FILES} )
